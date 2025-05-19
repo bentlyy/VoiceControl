@@ -1,6 +1,10 @@
 // backend/server.js
 const express = require('express');
+const dotenv = require('dotenv')
 const cors = require('cors');
+
+import iaRoutes from './routes/iaRoutes'
+
 const app = express();
 const PORT = 3000;
 

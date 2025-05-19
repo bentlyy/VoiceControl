@@ -1,5 +1,5 @@
 # Usa una imagen ligera de Node.js
-FROM node:18-alpine
+FROM node:23-alpine
 
 # Carpeta de trabajo dentro del contenedor
 WORKDIR /app
